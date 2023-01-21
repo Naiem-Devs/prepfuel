@@ -1,0 +1,116 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .rv_nav ul li a {
+        padding: 7px 10px;
+    }
+    
+    .rv_nav ul {
+        width: max-content;
+    }
+    
+    .rv_title h3 {
+        font-size: 18px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 15px 0;
+        margin-bottom: 0;
+    }
+    .header-area::before {
+        display: none;
+    }
+    .container {
+        padding: 0px 30px;
+    }
+    .rh_left p {
+        font-size: 15px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        padding: 15px 0;
+        margin-bottom: 0;
+    }
+    .header-area::before {
+        display: none;
+    }
+    .review_h_blk ul li {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    li.rh_title .rh_right {
+        display: none;
+    }
+    
+    .review_time_nav ul li a {
+        margin: 0 10px 15px;
+        padding-bottom: 0px;
+    }
+    
+    .review_time_nav ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .review_top h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .Q_review_wrp {
+        flex-wrap: wrap;
+    }
+    
+    .rh_left h3 {
+        font-size: 18px;
+    }
+    
+    li.rh_title p {
+        display: none;
+    }
+    
+    .rh_right {margin: 14px 0;margin-left: 65px;}
+    
+    .review_h_blk ul li p {
+        font-size: 15px;
+    }
+    .rh_right a {
+        font-size: 14px;
+    }
+    .review_area {
+        padding: 50px 0 30px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.review_time_nav ul li a{
+    margin: 0 5px 15px;
+}
+
+.review_time_nav ul {
+    justify-content: space-between;
+}
+}
