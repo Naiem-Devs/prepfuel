@@ -19,6 +19,45 @@
         font-size: 18px;
     }
 
+    .circle_progress {
+        flex-direction: column;
+    }
+    
+    .ps_circle {
+        margin: 20px 00;
+    }
+    
+    .Scores_blk {
+        flex: 0 0 47%;
+        margin: 10px 0;
+    }
+    
+    .Scores_wrp {
+        max-width: 279px;
+        margin: auto;
+    }
+    li.tm2 {
+        width: 36%;
+    }
+    .Practice_wrp ul li {
+        width: 140px;
+        padding: 10px 20px;
+    }
+    main.student_page .rv_nav {
+        margin: 20px 0;
+    }
+ 
+    main.student_page   .sec_title {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    section.Course-area .sec_title h4 {margin-bottom: 0;}
+
+section.Course-area .sec_title {
+    margin-bottom: 20px;
+}
+
 }
 
  
@@ -37,6 +76,56 @@
     .rh_left p {
         font-size: 15px;
     }
+
+
+  /* ======== Dashbord Start  ========= */
+    
+    section.add_stud {
+        margin: 35px  auto;
+    }
+    
+    .sp_wrp_cont ul h5 {
+        font-size: 16px;
+    }
+    
+    .db_nav ul {
+        justify-content: center;
+    }
+    
+    .db_nav ul li {
+        margin: 10px 20px;
+    }
+    .edit_btn {
+        margin-top: 20px;
+    }
+
+  /* ======== Student Start  ========= */
+
+    main.student_page .rv_nav {
+        margin: 20px 0;
+    }
+
+.the_most .rv_nav li {
+    margin: 10px 0;
+}
+ 
+    main.student_page   .sec_title {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    section.Course-area .sec_title h4 {margin-bottom: 0;}
+
+section.Course-area .sec_title {
+    margin-bottom: 20px;
+}
+li.tm2 {
+    width: 36%;
+}
+.Practice_wrp ul li {
+    width: 150px;
+    padding: 10px 20px;
+}
 
 }
 
@@ -100,7 +189,190 @@
     .review_area {
         padding: 50px 0 30px;
     }
- 
+
+    
+  /* ======== Dashbord Start  ========= */
+    
+  section.add_stud {
+    margin: 35px  auto;
+}
+
+.sp_wrp_cont ul h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.db_nav ul {
+    justify-content: center;
+}
+
+.db_nav ul li {
+    margin: 10px 20px;
+}
+.edit_btn {
+    margin-top: 5px;
+}
+.circle_progress {
+    flex-direction: column;
+}
+
+.ps_circle {
+    margin: 20px 00;
+}
+
+.Scores_blk {
+    flex: 0 0 47%;
+    margin: 10px 0;
+}
+
+.Scores_wrp {
+    max-width: 279px;
+    margin: auto;
+}
+.stu_prog i img ,.star_circle i img{
+    width: 100%;
+}
+.sp_wrp.solid_bg {
+    flex-direction: column;
+}
+
+.sp_wrp ul li {
+    margin-bottom: 15px;
+}
+
+.thm_btn {
+    font-size: 14px;
+}
+
+.edit_btn a {
+    margin: 5px 5px;
+}
+
+.sp_wrp ul {
+    margin-bottom: 15px;
+}
+
+.sp_wrp_cont ul p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.db_title {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.db_btm a {
+    margin: 10px;
+}
+
+.db_btm {
+    justify-content: center;
+}
+
+.db_right a {
+    margin-top: 10px;
+}
+
+.star_circle ul {
+    margin-top: 30px;
+}
+
+.db_top {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sk_level_blk ul li {
+    margin: 15px auto;
+    max-width: 130px;
+}
+
+.Badges ul {
+    justify-content: center;
+}
+
+.Badges ul li {
+    margin: 10px;
+}
+
+.widget_wrp {
+    justify-content: center;
+}
+
+.sec_title {
+    justify-content: center;
+}
+.star_circle {
+    justify-content: center;
+}
+.Recent_rew ul {
+    margin-top: 30px;
+}
+
+    
+  /* ======== Student Start  ========= */
+
+.Practice_wrp.sgl_pw ul {
+    flex-wrap: wrap;
+    max-width: 340px;
+    margin: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.Practice_wrp.sgl_pw ul li {
+    margin: 10px;
+}
+.Practice_wrp {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Practice_wrp ul {
+    margin-bottom: 20px;
+}
+main.student_page .rv_nav {
+    margin: 20px 0;
+}
+
+.the_most .rv_nav li {
+margin: 10px 0;
+}
+
+main.student_page   .sec_title {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+section.Course-area .sec_title h4 {margin-bottom: 0;}
+
+section.Course-area .sec_title {
+margin-bottom: 20px;
+}
+li.tm2 {
+width: 36%;
+}
+.Practice_wrp ul li {
+width: 150px;
+padding: 10px 20px;
+}
+span.prlt {
+    text-align: center;
+    margin: 10px 0;
+}
+.stu_skill_lavel > ul {
+    justify-content: center;
+}
+
+.stu_skill_lavel h6 {
+    text-align: center;
+}
+main.student_page .sec_title .rv_nav ul li{
+    margin: 7px;
+}
 }
  
 /* Large Mobile screen :480px. */

@@ -24,7 +24,7 @@
   -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
-  width: 80px;
+  width: max-content;
   font-weight: 700;
   font-family: var(--roboto);
   }
@@ -37,7 +37,7 @@
     border-right: 1px solid #fff;
     content: '';
     display: block;
-    height: 6px;
+    height: 7px;
     margin-top: -5px;
     pointer-events: none;
     position: absolute;
@@ -90,7 +90,6 @@
       line-height: 34px;
       min-height: 34px; }
   .nice-select .list {
-    background-color: #4aa3ff;
     border-radius: 5px;
     box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
     box-sizing: border-box;
@@ -111,6 +110,7 @@
     -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
+    background: #fff;
     }
     .nice-select .list:hover .option:not(:hover) {
       background-color: transparent !important; }
@@ -130,7 +130,7 @@
     width: 100%;
     }
     .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
-      background: #3699ff;
+      background: #3699ff59;
       }
     .nice-select .option.selected {
       font-weight: bold; }
