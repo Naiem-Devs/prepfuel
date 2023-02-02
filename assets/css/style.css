@@ -381,7 +381,7 @@ li {
 .rev-menu {
   position: fixed;
   width: 320px;
-  height: 100vh;
+  height: 100%;
   background: #ffffff;
   z-index: 99;
   box-shadow: 0px 0px 9px -1px #737373;
@@ -1466,7 +1466,7 @@ main.student_page .rv_nav {
     text-align: center;
 }
 
-.Users_Stats_content h3 {font-style: normal;text-align: center;max-width: 140px;position: absolute;top: 55%;left: 50%;transform: translate(-50%, -50%);width: 100%;color: #181C32;}
+.Users_Stats_content h3 {font-style: normal;text-align: center;max-width: 140px;position: absolute;top: 57%;left: 50%;transform: translate(-50%, -50%);width: 100%;color: #181C32;}
 
 .Users_Stats_content h3 p {
     font-size: 14px;
@@ -1789,4 +1789,175 @@ img.atsLineChart {width: 100%;}
 }
 /* ---------- Section End -------- */
 
-/* ============  Student Page End =======              
+/* ============  Student Page End ===========*/
+
+/* ============  Payments Page Start ===========*/
+.coursPlane-area {margin-top: 30px;}
+.container {
+}
+.row {
+}
+.col-lg-7 {
+}
+.coursPlane_cont {
+}
+.coursPlane_cont .row {margin: 40px 0;}
+.sec_title {
+}
+.rv_nav {
+}
+.active {
+}
+.calTo {
+}
+.col-lg-6 {
+}
+.avt_text {
+}
+.avt_tile {
+}
+.cp_cir_left {display: flex;align-items: center;width: 100%;margin-top: 25px;}
+
+.cp_cir_left ul {
+}
+
+.cp_cir_left img {
+    margin-right: 30px;
+}
+.cplane_list {width: 100%;max-width: 170px;}
+
+ul.cplane_list li {
+    display: flex;
+    font-family: var(--roboto);
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+ul.cplane_list li p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #B5B5C3;
+}
+
+ul.cplane_list li span {
+    color: #5E6278;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+ul.cplane_list li i {
+    border-radius: 5px;
+    width: 12px !important;
+    height: 8px;
+    margin: 0;
+    margin-right: 5px;
+    display: inline-block;
+}
+.cpColor1 i {background: #04C8C8;}
+
+.op-50 i {
+    opacity: .30;
+}
+.cpColor2 i {background: #FFC700;}
+.cpColor3 i {background: #4A7DFF;}
+.cp_chart {
+}
+.Refunds {
+}
+.Refunds_lineChart {margin-bottom: 40px;}
+
+.Refunds_lineChart img {
+    width: 100%;
+    margin: 30px 0;
+    object-fit: cover;
+}
+.Refunds_lineChart_list {display: flex;justify-content: space-between;flex-wrap: wrap;}
+.Reasons {margin-bottom: 40px;}
+
+.Reasons h6 {
+    font-weight: 600;
+    color: #5E6278;
+    margin-bottom: 25px;
+}
+.Reasons_blk {
+}
+
+.Reasons_blk i {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6278;
+    font-family: 'Roboto';
+}
+
+.Reasons_blk i img {
+    margin-right: 10px;
+}
+
+.Reasons_blk p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #B5B5C3;
+    line-height: 21px;
+}
+.perCourse {margin-bottom: 10px;}
+
+.perCourse .perCourse_list {width: 100%;height: 100%;}
+
+.perCourse_list ul {
+    margin: 24px 0;
+}
+
+.perCourse_list .star_list li span {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    /* transform: translateY(-10px); */
+}
+
+.Users_Stats_content.i_cir > i {
+    width: max-content;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.Users_Stats_content.i_cir > i h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.perCourse .Users_Stats_content {display: flex;align-items: center;}
+.star_list {
+}
+.perCourse_list.ref_cou ul li {margin: 26px 0;align-items: normal;}
+
+.perCourse_list ul li h6 {
+    font-size: 18px;
+}
+
+.perCourse_list ul li {
+}
+
+.perCourse_list ul p {
+    font-size: 14px;
+}
+
+.perCourse_list ul {
+    max-width: 100%;
+}
+.col-lg-5 {
+}
+.Revenue .Users_Stats_content.i_cir > i {margin-right: 25px;}
+.Revenue_chart {margin: 30px 0 40px;}
+
+.Revenue_chart > img {
+    width: 100%;
+}
+.Canceled-Plans .Refunds_lineChart_list ul {
+    flex: 0 0 50%;
+}
+
+
+
+/* ============  Payments Page End =========== */

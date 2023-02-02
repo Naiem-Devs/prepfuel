@@ -58,6 +58,39 @@ section.Course-area .sec_title {
     margin-bottom: 20px;
 }
 
+
+
+.cp_chart {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.avt_text {
+    text-align: center;
+}
+
+.cp_cir_left {justify-content: center;}
+.perCourse .Users_Stats_content {
+    flex-direction: column;
+}
+
+.Revenue .Users_Stats_content.i_cir > i {
+    margin: 30px auto 10px;
+}
+
+.perCourse {
+    margin-bottom: 20px;
+    max-width: 350px;
+    margin: 0 auto 30px;
+}
+
+.perCourse > h6 {
+    text-align: center;
+}
+.Users_Stats_content.i_cir > i {
+    margin: 20px auto;
+}
+
 }
 
  
@@ -125,6 +158,12 @@ li.tm2 {
 .Practice_wrp ul li {
     width: 150px;
     padding: 10px 20px;
+}
+
+  /* ======== Payments Start  ========= */
+section.coursPlane-area .calTo {
+    text-align: center;
+    margin-top: 20px;
 }
 
 }
@@ -373,6 +412,54 @@ span.prlt {
 main.student_page .sec_title .rv_nav ul li{
     margin: 7px;
 }
+
+
+  /* ======== Payments Start  ========= */
+  section.coursPlane-area .calTo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cp_chart {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.avt_text {
+    text-align: center;
+}
+
+.cp_cir_left {justify-content: center;flex-direction: column;align-items: center;}
+
+.cp_cir_left img {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.perCourse .Users_Stats_content {
+    flex-direction: column;
+}
+
+.Revenue .Users_Stats_content.i_cir > i {
+    margin: 30px auto 10px;
+}
+
+.perCourse {
+    margin-bottom: 20px;
+    max-width: 350px;
+    margin: 0 auto 30px;
+}
+
+.perCourse > h6 {
+    text-align: center;
+}
+.Users_Stats_content.i_cir > i {
+    margin: 20px auto;
+}
+.Canceled-Plans .Refunds_lineChart_list ul{
+    flex: 100%;
+}
+
+
 }
  
 /* Large Mobile screen :480px. */
